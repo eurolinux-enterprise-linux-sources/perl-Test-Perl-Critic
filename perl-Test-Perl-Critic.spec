@@ -1,7 +1,7 @@
 Name:		perl-Test-Perl-Critic
 Summary:	Use Perl::Critic in test programs
 Version:	1.02
-Release:	10%{?dist}
+Release:	9.1%{?dist}
 Group:		Development/Libraries
 License:	GPL+ or Artistic
 URL:		http://search.cpan.org/dist/Test-Perl-Critic/
@@ -61,9 +61,6 @@ rm -rf %{buildroot}
 %{_mandir}/man3/Test::Perl::Critic.3pm*
 
 %changelog
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.02-10
-- Mass rebuild 2013-12-27
-
 * Mon Aug 20 2012 Daniel Mach <dmach@redhat.com> - 1.02-9.1
 - Rebuild for perl 5.16
 
